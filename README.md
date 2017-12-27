@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+### Transit:  A Data Analysis Project Using R to Analyze the Chicago 'L'
 
-You can use the [editor on GitHub](https://github.com/jlweichen/transit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project is to use open data and the Twitter API to look at activity around the Chicago area, especially along the Blue Bline of the 'L'.
 
-### Markdown
+## Inspiration
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jlweichen/transit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I visited Chicago in the summer of 2017 for the first time and thoroughly enjoyed my stay. The 'L' is known to railfans around the world as one of the most extensive elevated rapid transit lines in the United States. As someone interested in statistics and public transportation, I sought to use my skills to explore the data about the line.
