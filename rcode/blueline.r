@@ -4,13 +4,18 @@ library("tibble")
 
 # https://data.cityofchicago.org/
 # reading CTA data from downloaded CSV files
-dayBoarding <- read_csv("/Users/Jennifer/Documents/chicago/data/stationEntriesDailyTotals.csv")
-stops <- read_csv("/Users/Jennifer/Documents/chicago/data/listOfStops.csv")
+dayBoarding <- read_csv(#path to CSV file#)
+stops <- read_csv#path to CSV file#)
 # right now, I am only interested in the blue line
-blueStops <- subset(stops, BLUE=="true")
+blueStops <- subset(stops[,c(5,6,9,17)], BLUE=="true")
+blueStops <- subset(blueStops[,c(1,2,4)])
+
 remove(stops)
 blues <- c(unique(blueStops$MAP_ID))
-blueLatLong <- c(unique(blueStops$Location))
+blueNames <- c(unique(blueStops$STATION_DESCRIPTIVE_NAME))
+blueNames <- (c(blueNames[(1:4)], blueNames[6:34]))
+
+
 # I also am only interested in the year 2016 and newer ridership data
 dayBoarding[,3] <- lapply(dayBoarding[,3], as.Date, format="%m/%d/%Y")
 dayBoarding <- filter(dayBoarding, date > "2015-12-31")
@@ -30,5 +35,21 @@ for(i in 1:length(blues)){
 remove(dayBoarding)
 blueRiders <- arrange(blueRiders, date)
 
-write_csv(blueRiders, "blueRiders.csv")
-write_csv(blueStops, "blueStops.csv")
+# splitting the coordinates string into latitude and longitude
+blueLatLong <- c(unique(blueStops$Location))
+
+blueCoords <- tibble(lat=1:length(blueNames), long=1:length(blueNames))
+for(i in 1:length(blueNames)){
+  latReg <- "[[:digit:]][[:digit:]][[:punct:]][[:digit:]]*"
+  longReg <-"-[[:digit:]]{2}[[:punct:]][[:digit:]]*"
+  blueCoords$lat[i] <- regmatches(blueLatLong[i], regexpr(latReg, blueLatLong[i]))
+  blueCoords$long[i] <- regmatches(blueLatLong[i], regexpr(longReg, blueLatLong[i]))
+}
+
+blueStops <- tibble(name = blueNames, MAP_ID = blues)
+blueStops <- bind_cols(blueStops, blueCoords)
+
+remove(blueCoords)
+
+write_csv(blueRiders, #path to save to#)
+write_csv(blueStops, #path to save to#)
