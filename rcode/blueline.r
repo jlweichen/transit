@@ -51,5 +51,21 @@ blueStops <- bind_cols(blueStops, blueCoords)
 
 remove(blueCoords)
 
-write_csv(blueRiders, #path to save to#)
-write_csv(blueStops, #path to save to#)
+write_csv(blueRiders, #path to save CSV#)
+write_csv(blueStops, #path to save CSV#)
+
+#now making a frame for each station's ridership data
+
+riders1 <- subset(blueRiders, station_id == 41240)
+riders2 <- subset(blueRiders, station_id==blueStops$MAP_ID[2])
+
+for(i in 1:length(blueStops$name)){
+  riders <- subset(blueRiders, station_id==blueStops$MAP_ID[i])
+  # right now not using the meta-data but I'm saving it to CSV in case I want to in the future
+  write_csv(riders, paste(#directory path#"/riders",as.character(i), ".csv"))
+  assign(paste("riders",as.character(i)), riders)
+  remove(riders)
+}
+
+#creating r data file
+save.image(#directory path#".RData")
