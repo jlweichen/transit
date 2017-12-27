@@ -61,11 +61,15 @@ remove(blueCoords)
 write_csv(blueStops, "#path#blueStops.csv")
 
 #now making a frame for each station's ridership data
+# and a list of each station's mean ridership over the entire timeframe
+
+meanRidership <- list()
 
 for(i in 1:length(blueStops$name)){
   riders <- subset(blueRiders, station_id==blueStops$MAP_ID[i])
+  meanRidership[i] <- mean(riders$rides)
   # exporting each stop to its own CSV
-  write_csv(riders, paste("/Users/Jennifer/Documents/chicago/data/riders",as.character(i), ".csv", sep=""))
+  write_csv(riders, paste("#path#",as.character(i), ".csv", sep=""))
   assign(paste("riders",as.character(i), sep=""), riders)
   remove(riders)
 }
