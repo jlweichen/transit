@@ -65,8 +65,8 @@ write_csv(blueStops, "#path#blueStops.csv")
 for(i in 1:length(blueStops$name)){
   riders <- subset(blueRiders, station_id==blueStops$MAP_ID[i])
   # exporting each stop to its own CSV
-  write_csv(riders, paste(#path#"/riders",as.character(i), ".csv"))
-  assign(paste("riders",as.character(i)), riders)
+  write_csv(riders, paste("/Users/Jennifer/Documents/chicago/data/riders",as.character(i), ".csv", sep=""))
+  assign(paste("riders",as.character(i), sep=""), riders)
   remove(riders)
 }
 remove(i)
