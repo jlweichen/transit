@@ -1,12 +1,11 @@
 library("readr")
-library("maptools")
 library("dplyr")
 library("tibble")
 
 # https://data.cityofchicago.org/
 # reading CTA data from downloaded CSV files
-dayBoarding <- read_csv(#path to .csv file#)
-stops <- read_csv(#path to .csv file#)
+dayBoarding <- read_csv("/Users/Jennifer/Documents/chicago/data/stationEntriesDailyTotals.csv")
+stops <- read_csv("/Users/Jennifer/Documents/chicago/data/listOfStops.csv")
 # right now, I am only interested in the blue line
 blueStops <- subset(stops, BLUE=="true")
 remove(stops)
@@ -27,4 +26,9 @@ for(i in 1:length(blues)){
     }
   }
 }
+
 remove(dayBoarding)
+blueRiders <- arrange(blueRiders, date)
+
+write_csv(blueRiders, "blueRiders.csv")
+write_csv(blueStops, "blueStops.csv")
