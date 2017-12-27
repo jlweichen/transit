@@ -17,8 +17,8 @@ tokenSecret <-#token secret
 
 setup_twitter_oauth(APIkey, APIsecret, tokenKey, tokenSecret)
 
-# loading the Blue Line stops
-blueStops <- read_csv(#file path#)
+# loading the Blue Line data
+load(#path#"/ridership.RData")
 
 # now to make a list with the total number of tweets for each stop
 totalTweets <-list()
