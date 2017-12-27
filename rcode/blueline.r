@@ -5,7 +5,7 @@ library("tibble")
 # https://data.cityofchicago.org/
 # reading CTA data from downloaded CSV files
 dayBoarding <- read_csv(#path to CSV file#)
-stops <- read_csv#path to CSV file#)
+stops <- read_csv(#path to CSV file#)
 # right now, I am only interested in the blue line
 blueStops <- subset(stops[,c(5,6,9,17)], BLUE=="true")
 blueStops <- subset(blueStops[,c(1,2,4)])
