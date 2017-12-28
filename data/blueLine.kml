@@ -1,0 +1,4140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="CTA_RailLines" xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+	<name>CTA_RailLines</name>
+	<open>1</open>
+	<Snippet maxLines="0"></Snippet>
+	<Style id="LineStyle01">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>ff899e00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>00000000</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Folder id="FeatureLayer0">
+		<name>CTA_RailLines</name>
+		<open>1</open>
+		<Snippet maxLines="0"></Snippet>
+		<Placemark id="ID_00001">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>1</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100001</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Oak Park to Austin</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>4060.368778</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.77678526964958,41.8708863930319,0 -87.77826234150609,41.87097820122218,0 -87.78251583439344,41.87130129991005,0 -87.78418294588424,41.87145055520308,0 -87.7872369165933,41.8717239119163,0 -87.79160214925886,41.87210797280065,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00010">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>10</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100010</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Western to Medical District</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>3946.196465</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.67394588011229,41.87563542806194,0 -87.67645140979361,41.87560929018824,0 -87.68026795048034,41.87558079170987,0 -87.68612887172138,41.87554512821968,0 -87.68702777400362,41.87553827988887,0 -87.68843451143968,41.87552957327095,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00019">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>19</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100019</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Monroe to Jackson</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Dearborn Subway</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>918.931888</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.62929566410676,41.8781825167524,0 -87.62929622250732,41.87819955714377,0 -87.62931370967236,41.8787303872002,0 -87.62932375871779,41.87903552859128,0 -87.62933870009806,41.87949754597086,0 -87.6293776999216,41.88070345907334,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00024">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>24</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100024</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Harlem to Oak Park</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>4213.413662</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.79160214925886,41.87210797280065,0 -87.79279015348135,41.87221246491257,0 -87.79635443672124,41.8725068499089,0 -87.80151760567503,41.8729670848914,0 -87.80448335082411,41.87324883310903,0 -87.80568707206419,41.87336316635786,0 -87.80696087211639,41.87349004978556,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00045">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>46</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100046</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Washington to Monroe</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Dearborn Subway</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>896.981974</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.6293776999216,41.88070345907334,0 -87.62937948187903,41.8807585670116,0 -87.62939844359809,41.88134486397021,0 -87.62941972751096,41.88200294304549,0 -87.62942376882482,41.88212791627176,0 -87.62944005911608,41.88316442444781,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00047">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>48</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100048</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Clark/Lake to Washington</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Dearborn Subway</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>1285.128478</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.62944005911608,41.88316442444781,0 -87.62946559027827,41.88536911003705,0 -87.62946739887551,41.88546497230234,0 -87.62947060170868,41.88551509605428,0 -87.62947799807097,41.88557082496629,0 -87.62952468747017,41.88563305771614,0 -87.62958341045842,41.88567766616914,0 -87.62966029297148,41.88570781759559,0 -87.62970436422499,41.88572293972859,0 -87.62975280174098,41.88573324116982,0 -87.62981629085309,41.88573840239084,0 -87.62992165280521,41.88573815841481,0 -87.6301139448676,41.88573771186017,0 -87.63019852173396,41.88573751668213,0 -87.63088601780893,41.88573698414198,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00057">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>58</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100059</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Austin to Cicero</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>8734.717418</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.74517217830825,41.87160804981594,0 -87.74998705482956,41.871557198774,0 -87.75335167961279,41.87149883105438,0 -87.75583938012457,41.87148780235957,0 -87.75674431363544,41.87148056639399,0 -87.75765250606823,41.87146155681365,0 -87.7583369397404,41.87143199484183,0 -87.75891409616453,41.87141131740513,0 -87.75939702973616,41.87135010590615,0 -87.75978250222664,41.8712577704917,0 -87.76010834661528,41.87113450168515,0 -87.7604309102134,41.87102535398534,0 -87.76059861248969,41.87095785120211,0 -87.76091190557501,41.87082744795887,0 -87.76125693475585,41.87067363630315,0 -87.76166217733696,41.87048477558253,0 -87.76188372505484,41.87038926071651,0 -87.76211773458471,41.87031030279329,0 -87.7623706603169,41.87023143913852,0 -87.76252860710053,41.87019687580263,0 -87.76275916945012,41.87015089091823,0 -87.76301495285476,41.87010503152188,0 -87.76329270028356,41.87007106199452,0 -87.7635356835123,41.87004634656307,0 -87.76384472634258,41.87003845289581,0 -87.76432073442268,41.87004552557001,0 -87.76490353517664,41.87009789849783,0 -87.76738918581678,41.87031283581151,0 -87.76824934341103,41.87037598404164,0 -87.770143183838,41.87048897455317,0 -87.77245732317931,41.87062816408447,0 -87.77395373054082,41.87071992048472,0 -87.77445093753451,41.87074239134827,0 -87.77678526964958,41.8708863930319,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00058">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>59</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100060</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Cicero to Pulaski</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>5492.1629</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.72562493047128,41.87388872373763,0 -87.72706596562139,41.87387513146318,0 -87.73026351468489,41.87382834040701,0 -87.73267887722085,41.87380800785869,0 -87.73318368032859,41.8737729422546,0 -87.73374878120769,41.87369577198287,0 -87.73421310211026,41.87360629111376,0 -87.73469988766274,41.87347450749011,0 -87.73503815979164,41.87337729662411,0 -87.73583564781076,41.87306096051825,0 -87.73623469545493,41.87286980120874,0 -87.73710897678279,41.87243131687406,0 -87.73745072054312,41.87229876845638,0 -87.7378715002672,41.8721430639161,0 -87.73816544744041,41.87206446633113,0 -87.73851312142274,41.87197200647574,0 -87.73879747790406,41.87190749598808,0 -87.73940708768095,41.87178811093597,0 -87.73976067170764,41.87173809514864,0 -87.74018033115834,41.87170255935742,0 -87.74065973874497,41.87168382576511,0 -87.74145757084419,41.87166673167585,0 -87.74380675179628,41.87163404033585,0 -87.74485377616848,41.8716040624439,0 -87.74517217830825,41.87160804981594,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00059">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>60</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100061</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Pulaski to Kedzie-Homan</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>5361.25483</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.70597829578452,41.87442550830305,0 -87.70619054308811,41.87439613076388,0 -87.70675973241204,41.87431285124871,0 -87.70719226739335,41.87425394071797,0 -87.70752062022811,41.87420859996776,0 -87.70785516271037,41.87417507479083,0 -87.70825600646204,41.87413248300414,0 -87.70944818249114,41.87409654842706,0 -87.71075698944244,41.87406476681094,0 -87.71252265353506,41.87406372250107,0 -87.7142160551239,41.87403751634799,0 -87.71561617536824,41.87401677694144,0 -87.71969659184984,41.87396795665192,0 -87.72421844178314,41.8739166202494,0 -87.72514248336273,41.87389323934497,0 -87.72562493047128,41.87388872373763,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00060">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>61</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100062</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Loomis Junction to Racine</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2199.893428</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.66753106754074,41.87576182774607,0 -87.66658131275761,41.87577209001094,0 -87.66499023545042,41.87581019603668,0 -87.6601834789098,41.87587121828171,0 -87.6594555096641,41.87588563407229,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00061">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>62</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100063</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Medical District to Loomis Junction</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>1747.724579</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.66753106754074,41.87576182774607,0 -87.6688644271356,41.87573457489621,0 -87.67275360918764,41.87565477980255,0 -87.67335924493261,41.87565111575263,0 -87.67394588011229,41.87563542806194,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00062">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>63</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100064</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Kedzie-Homan to Western</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>4809.553829</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.68843451143968,41.87552957327095,0 -87.69103474439301,41.87549167717703,0 -87.69147746963711,41.87547164343677,0 -87.69232945025409,41.87546984882341,0 -87.69601712647984,41.87540915837992,0 -87.69672969588049,41.87539580097106,0 -87.69778010566488,41.87539818631875,0 -87.69830620142142,41.87537965684617,0 -87.69877816241204,41.87535606201642,0 -87.69916409279232,41.87532960793974,0 -87.69960427504226,41.87529630513662,0 -87.70000302362791,41.87526277285863,0 -87.70043378502841,41.87521512198994,0 -87.70081345675592,41.87517671721741,0 -87.70146776414346,41.87508503240992,0 -87.70394008118551,41.87472396365816,0 -87.70597829578452,41.87442550830305,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00075">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>76</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100078</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Rosemont to Cumberland</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>5815.960625</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.83802598450153,41.9842940571162,0 -87.84021828640358,41.98418926863083,0 -87.84185692327821,41.98409443706414,0 -87.84339125487666,41.98403069122441,0 -87.84477368535777,41.98397799579029,0 -87.84567595208844,41.9839759688844,0 -87.8481432633004,41.98388126147658,0 -87.85066734451594,41.98378832460556,0 -87.85238161807135,41.98377186771971,0 -87.85359631888319,41.98374570374008,0 -87.85668585195995,41.98362187032781,0 -87.85938770112519,41.98350728713537,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00076">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>77</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100079</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Cumberland to Harlem</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>8013.705605</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.80889493542813,41.98232336969899,0 -87.80984334843933,41.98231391504402,0 -87.81112287441306,41.98228987722202,0 -87.81248078035429,41.98228226208093,0 -87.81303479458747,41.98230774803155,0 -87.81355173209893,41.98234914404173,0 -87.81420361936135,41.98245547256301,0 -87.81469868942669,41.98253581881276,0 -87.81527963487905,41.98265790200783,0 -87.81594020673819,41.98283317952515,0 -87.81684857010741,41.98305639806738,0 -87.81772771182122,41.98325961804137,0 -87.81860702898709,41.98344163293523,0 -87.81948899026945,41.98357506900712,0 -87.82075309948121,41.9837484242334,0 -87.82178962737976,41.98388858906406,0 -87.82300314773042,41.98403642316474,0 -87.82404903286816,41.98416282512117,0 -87.82527640061801,41.98431299455572,0 -87.82684424141662,41.9844347874557,0 -87.82833859127545,41.98450569596011,0 -87.82959145945844,41.98454795749103,0 -87.83115853356135,41.98457320170842,0 -87.83275534554107,41.98453652623028,0 -87.83421846915732,41.98446708547174,0 -87.83561232934861,41.98439530464384,0 -87.83678626976403,41.98434010683334,0 -87.83802598450153,41.9842940571162,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00087">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>88</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100093</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Addison to Belmont</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>4022.027064</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.71235935097486,41.93813166836929,0 -87.71239433066684,41.93926454239141,0 -87.71241739972513,41.94014158454477,0 -87.71247951496498,41.9404582666869,0 -87.71257540071193,41.94065346049957,0 -87.7127847661225,41.94091010234148,0 -87.7129948426429,41.94109374525936,0 -87.7132865168481,41.94126566153176,0 -87.7136109025321,41.94142558597969,0 -87.71393552533942,41.94156117689852,0 -87.71427821693993,41.94172983850509,0 -87.71452300461122,41.94185396771514,0 -87.71473025525511,41.94195581185331,0 -87.71502782631991,41.94213204293805,0 -87.71529386594577,41.942304791842,0 -87.7156229074488,41.94255401821077,0 -87.715934220851,41.94278684070498,0 -87.7161682988246,41.94299772691682,0 -87.71636078620674,41.9432202996821,0 -87.7165218058263,41.94339744322724,0 -87.71664773024251,41.94357439734324,0 -87.71680195699724,41.94379438229848,0 -87.71703131469164,41.94416484403622,0 -87.71726678043838,41.9445639243007,0 -87.71749566119749,41.94498440753153,0 -87.71770583732453,41.94535952945672,0 -87.71789413824885,41.94568689094748,0 -87.71813588208556,41.94609791350801,0 -87.71830839420097,41.94640851538083,0 -87.71850060258841,41.94666205071779,0 -87.71867662920663,41.94693932082768,0 -87.71879030615378,41.94706379968552,0 -87.71891025098583,41.94720022318866,0 -87.71909930254752,41.94736010178796,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00093">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>95</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100102</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Chicago to Grand</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2737.490903</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.64757831054658,41.89118929336086,0 -87.64858589429343,41.8918411828776,0 -87.64942294953532,41.89236909772625,0 -87.65044316200024,41.8930240971447,0 -87.65192904890741,41.89397751976132,0 -87.65284748405703,41.89459568630992,0 -87.65380030835513,41.89520190794388,0 -87.65484576782104,41.89585023387566,0 -87.65521427862886,41.89607523669115,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00094">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>96</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100103</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Division to Chicago</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>4058.724845</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.65521427862886,41.89607523669115,0 -87.65579680072386,41.89644399710796,0 -87.65671703074136,41.8970530054009,0 -87.65781427276117,41.89777385339378,0 -87.65878562491768,41.89839501278954,0 -87.65986888185064,41.89909693194549,0 -87.6609014450562,41.89974479806953,0 -87.6616223204455,41.90022026408671,0 -87.66258693874617,41.90082393620369,0 -87.66357448214296,41.9014621091037,0 -87.66417013042918,41.9018424360322,0 -87.6652368873832,41.9025206574291,0 -87.66592639879627,41.90297149547457,0 -87.66649606730381,41.90335508408191,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00095">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>97</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100104</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Damen to Division</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>3793.536263</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.66649606730381,41.90335508408191,0 -87.66827593922019,41.90440342894118,0 -87.66900000668048,41.90465149997501,0 -87.67014285411236,41.90513799660693,0 -87.67063534713499,41.90537685207834,0 -87.67103571217797,41.9056031166911,0 -87.67362788827154,41.90725857791123,0 -87.67572041274302,41.90860011421204,0 -87.67743665489418,41.90974379175756,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00096">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>98</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100105</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Western to Damen</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>3572.813766</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.67743665489418,41.90974379175756,0 -87.67927753188518,41.91091761099874,0 -87.68099339792315,41.91203662708236,0 -87.68209218399547,41.91273516551217,0 -87.68381860182541,41.91386206515383,0 -87.68522081057839,41.91476683247525,0 -87.68736438085207,41.91615742841907,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00097">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>99</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100106</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>California to Western</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>3340.726088</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.68736438085207,41.91615742841907,0 -87.68896756838639,41.91714803537246,0 -87.69112836447481,41.91846596665206,0 -87.69406207134794,41.9202378101357,0 -87.69688979824873,41.9219391700877,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00098">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>100</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100107</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Logan Square to California</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>4266.422339</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.69688979824873,41.9219391700877,0 -87.69823041454779,41.92277445780687,0 -87.69994293658428,41.92382124097691,0 -87.70202759440963,41.9250595560445,0 -87.70395236103359,41.92626703498145,0 -87.70437168150053,41.92657295695683,0 -87.70470449140316,41.9268311704455,0 -87.70499732615055,41.92709512651349,0 -87.70529803006073,41.92737105017295,0 -87.70555124044382,41.92760497445723,0 -87.70593901404612,41.92795888586281,0 -87.70639049121964,41.92833103139835,0 -87.70692193381831,41.92869168752954,0 -87.7073498340214,41.92899520057227,0 -87.70854138548118,41.92972804083671,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00099">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>101</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100108</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Belmont to Logan Square</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>3515.432605</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.70854138548118,41.92972804083671,0 -87.71032043822709,41.9308301853888,0 -87.71159842310213,41.93159394092293,0 -87.71179623190609,41.93173753024077,0 -87.71192413084853,41.93182059944454,0 -87.71206089115898,41.93193804163875,0 -87.712142294865,41.93207577719595,0 -87.71216833978849,41.93223380762538,0 -87.71219756773843,41.9324215979014,0 -87.71224675232523,41.93457511473147,0 -87.71230824880627,41.93676530638887,0 -87.71235935097486,41.93813166836929,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00100">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>102</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100109</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Irving Park to Addison</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>3420.290652</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.71909930254752,41.94736010178796,0 -87.71927822594463,41.94751190664552,0 -87.71949642609177,41.9476793738347,0 -87.71971864075012,41.94783950317097,0 -87.71991960971341,41.9479558218617,0 -87.72011959584501,41.94805516981014,0 -87.72042659213358,41.94820351618308,0 -87.72073366197975,41.94832742218076,0 -87.72098264282704,41.94844478620706,0 -87.7212165341053,41.94854135475946,0 -87.7215473396283,41.9486877153993,0 -87.72180805246103,41.94880865976774,0 -87.72240307204369,41.94910186256732,0 -87.7230165669128,41.9494361707498,0 -87.72356790508782,41.94974945635515,0 -87.72547559286764,41.95084844952465,0 -87.72632123291265,41.95131999056402,0 -87.72797849880035,41.95226795235583,0 -87.72917726597683,41.95294026101622,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00101">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>103</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100110</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Montrose to Irving Park</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>5022.851196</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.72917726597683,41.95294026101622,0 -87.73043117680702,41.95364243468652,0 -87.73272935898409,41.95495035887402,0 -87.73446564303218,41.95595039454899,0 -87.73594259091701,41.95670369593265,0 -87.73724475128171,41.95742674285687,0 -87.74074034141115,41.9594068082244,0 -87.74121428733082,41.95970078528993,0 -87.74169273286081,41.95999822732148,0 -87.74214550260074,41.96028279426827,0 -87.74250998614494,41.96055861540135,0 -87.7427443266927,41.96075753712816,0 -87.74300083310904,41.96097563026028,0 -87.74326412922946,41.961174986427,0 -87.7434291992549,41.9613303359971,0 -87.74361697470313,41.96148663233345,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00102">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>104</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100111</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Harlem to Jefferson Park</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>14394.666365</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.7608922787296,41.9706341374101,0 -87.76148981556841,41.97087854588877,0 -87.76209484960063,41.9710738481865,0 -87.76268370688526,41.97121944318356,0 -87.76320202571361,41.97134533263762,0 -87.76370961443516,41.97145528962514,0 -87.76429716519587,41.97161447551058,0 -87.76471474119717,41.97175467834323,0 -87.76512960260018,41.97191389459745,0 -87.76534488320857,41.97200800266422,0 -87.76571753849281,41.97216491797975,0 -87.76623881824725,41.97243421877811,0 -87.76722310002454,41.97298493304191,0 -87.76796766514958,41.97338558819731,0 -87.76943998141513,41.97421161146804,0 -87.77192956588715,41.97563187088288,0 -87.77368308666391,41.97663289681866,0 -87.77523686186137,41.97751144231743,0 -87.77701486450187,41.97852486603359,0 -87.77838177852446,41.97927953188225,0 -87.77983018310978,41.98010732480142,0 -87.78082689397516,41.98068085722274,0 -87.78175230554207,41.98119448610787,0 -87.78252268661262,41.98163887687847,0 -87.78306725143413,41.98189161155183,0 -87.78364397607984,41.98211769804728,0 -87.78420139077565,41.98226924856721,0 -87.78468735905591,41.98237578967886,0 -87.7851616639805,41.98244654166969,0 -87.78554049971014,41.98248110411218,0 -87.78597932265075,41.98250106291252,0 -87.78650614589449,41.98249761833029,0 -87.78712483180064,41.98248567525052,0 -87.7879230736348,41.98247756001129,0 -87.79065176742915,41.98246071544459,0 -87.79403307121133,41.98243138951921,0 -87.79876173270758,41.98239633480561,0 -87.80106696028427,41.98238322520062,0 -87.80306574088875,41.98236388974208,0 -87.80605742698306,41.9823467019725,0 -87.80718449919269,41.98233996264019,0 -87.80889493542813,41.98232336969899,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00103">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>105</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100112</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Jefferson Park to Montrose</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>5796.537775</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.74361697470313,41.96148663233345,0 -87.74388319367728,41.96169048063354,0 -87.74409555407564,41.96185117301006,0 -87.74433023334934,41.96201436173546,0 -87.74455868398364,41.96216084377111,0 -87.74476811902777,41.96229293443612,0 -87.7450221918411,41.96243001794229,0 -87.74525517274195,41.96256076853755,0 -87.74546371301406,41.96266096394817,0 -87.74576898543988,41.96278401522644,0 -87.74611251390937,41.96291202514661,0 -87.74655489476181,41.96305006826904,0 -87.74698783435588,41.96317376874091,0 -87.7475894050929,41.96335549966822,0 -87.74802208623295,41.96350778037127,0 -87.74837211559253,41.96362390617924,0 -87.74869672205546,41.96372799097166,0 -87.74891611522067,41.96381962882223,0 -87.74924682426224,41.96395471081098,0 -87.74951063993488,41.96407515967069,0 -87.74975215955773,41.9641907294118,0 -87.74999671973421,41.96432298905506,0 -87.75085829748522,41.96477623868391,0 -87.75163100656769,41.96536512470948,0 -87.75218304701232,41.96573238524464,0 -87.75261456645808,41.96601566015777,0 -87.75332238734745,41.96645278512963,0 -87.75396379495436,41.96682287145507,0 -87.75466242471701,41.96721944582296,0 -87.75530710435412,41.96758239439488,0 -87.75586289338605,41.96789248514727,0 -87.75640013309507,41.96819534732414,0 -87.75738334782073,41.96876303355094,0 -87.75856855113256,41.96943776984333,0 -87.75918141994582,41.96979339059916,0 -87.75969830771164,41.97007630483824,0 -87.7601262808026,41.97030587469182,0 -87.76057216575596,41.97049699853928,0 -87.7608922787296,41.9706341374101,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00125">
+			<name>Blue Line (Forest Park)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>127</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100138</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (Forest Park)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Forest Park to Harlem</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2881.688314</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.80696087211639,41.87349004978556,0 -87.80900241852862,41.87369337189303,0 -87.81044649638028,41.87383926604394,0 -87.81079933377877,41.87384013571385,0 -87.81110021590207,41.87381970973132,0 -87.81124761341356,41.87381433181886,0 -87.81133522449932,41.87381113451963,0 -87.81148927506855,41.87379812755887,0 -87.81181168526476,41.87375544444416,0 -87.81197237461303,41.87373653411954,0 -87.81212687864685,41.87371834931322,0 -87.81241268057624,41.87368163847164,0 -87.81268442998903,41.87367257660078,0 -87.81286039229002,41.87365378836638,0 -87.81302153290645,41.87362969886687,0 -87.81321219573084,41.87361071324501,0 -87.81342515978167,41.87360242452177,0 -87.81370421060262,41.87358149454597,0 -87.81393342091495,41.8736068607092,0 -87.81410105188792,41.87365193499013,0 -87.81429797278885,41.87374145556878,0 -87.81447524881004,41.87381611707412,0 -87.81468199159558,41.87391306846575,0 -87.81483956425569,41.87398025262195,0 -87.81501701964882,41.87403275631527,0 -87.8152341236262,41.87407066581503,0 -87.81555998824926,41.8741016789027,0 -87.81590555579028,41.87414016553189,0 -87.81731777758807,41.87425730987191,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00127">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>129</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100058</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Grand to Clark/Lake</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>5334.585562</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.63088601780893,41.88573698414198,0 -87.63203975382106,41.8857366548947,0 -87.63284571517606,41.88573013964324,0 -87.63391317503391,41.88572452532964,0 -87.6360572897328,41.88571606471912,0 -87.63815039039837,41.88570776599799,0 -87.63944319335101,41.88570262186774,0 -87.63969773434198,41.88573105019206,0 -87.6398490875192,41.88575056365624,0 -87.63993759318365,41.88579097485567,0 -87.64000752061338,41.88583932336201,0 -87.64057508637595,41.88625683479554,0 -87.64085444339814,41.88646233079584,0 -87.64119459945992,41.88671254792997,0 -87.64195886384113,41.88727459591027,0 -87.64265496415094,41.88778647456136,0 -87.64335335656683,41.88830148265112,0 -87.64444378040054,41.88909932283973,0 -87.6450561216286,41.88951827697112,0 -87.6457158206691,41.88996962312641,0 -87.64677726107129,41.89066690752124,0 -87.64757831054658,41.89118929336086,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00128">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>130</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100150</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Racine to UIC-Halsted</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2681.143575</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.6594555096641,41.87588563407229,0 -87.65934444259614,41.87588083035522,0 -87.65898051245625,41.87588284586553,0 -87.658633139115,41.87589533873938,0 -87.65820812604902,41.8758964779685,0 -87.65786287655737,41.87590034202096,0 -87.65738562538402,41.87587612936229,0 -87.65697321139291,41.87584684639124,0 -87.65680566943595,41.87583494998802,0 -87.65584254171017,41.87577925438711,0 -87.65375545142963,41.8755987541394,0 -87.65179519910409,41.87546555404416,0 -87.65039824053379,41.87547710720153,0 -87.64964223118429,41.87551620845385,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00129">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>131</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100151</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>UIC-Halsted to Clinton</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2358.223773</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.64964223118429,41.87551620845385,0 -87.64710037716942,41.87552180891583,0 -87.64190784196548,41.8755126176907,0 -87.64098421617102,41.87553890428663,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00130">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>132</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100152</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Clinton to LaSalle</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Forest Park</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2522.933011</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.64098421617102,41.87553890428663,0 -87.63729877252582,41.87560396195254,0 -87.63362556981518,41.87556862205838,0 -87.63172207586659,41.87556762524404,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00131">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>133</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100153</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Jackson to LaSalle</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line Dearborn Subway</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>1569.026358</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.63172207586659,41.87556762524404,0 -87.62969027744899,41.8756082778545,0 -87.62954800017236,41.87562863919006,0 -87.62942065253765,41.87566545792279,0 -87.62928577932243,41.8757406340004,0 -87.62922667773253,41.87586118282468,0 -87.6292207839878,41.87597687672046,0 -87.62923385996552,41.87630626345256,0 -87.62924018402076,41.87649828659507,0 -87.6292515537145,41.87684337624656,0 -87.6292529605897,41.87688613853162,0 -87.62929566410676,41.8781825167524,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00135">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>137</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100077</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>O'Hare to Subway Portal</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Subway</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>2195.064636</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.89562339829254,41.98118715383204,0 -87.89576231574353,41.98131847599777,0 -87.89601268100134,41.98146742443613,0 -87.89627341189437,41.98158623866691,0 -87.89658400382172,41.98167389076301,0 -87.89713286883774,41.98173823184098,0 -87.89777252732226,41.98170486585867,0 -87.89823009981232,41.98164640439425,0 -87.898715383922,41.98146765560711,0 -87.89920148216699,41.98116851460938,0 -87.89964864146148,41.98084367879559,0 -87.90013725909463,41.9804336122744,0 -87.9005890928871,41.98001792464766,0 -87.9008185821077,41.97982656238325,0 -87.90101858646534,41.97964058863448,0 -87.90122598646072,41.97944914938123,0 -87.90152237916706,41.97915918832437,0 -87.90184839865397,41.97887673746163,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+		<Placemark id="ID_00136">
+			<name>Blue Line (O&apos;Hare)</name>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>OBJECTID_1</td>
+
+<td>138</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>ASSET_ID</td>
+
+<td>21100155</td>
+
+</tr>
+
+<tr>
+
+<td>LINES</td>
+
+<td>Blue Line (O'Hare)</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESCRIPTIO</td>
+
+<td>Subway Portal to Rosemont</td>
+
+</tr>
+
+<tr>
+
+<td>TYPE</td>
+
+<td>Elevated or at Grade</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr>
+
+<td>ALT_LEGEND</td>
+
+<td>BL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>BRANCH</td>
+
+<td>Blue Line O'Hare</td>
+
+</tr>
+
+<tr>
+
+<td>SHAPE.LEN</td>
+
+<td>11048.421563</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+			<styleUrl>#LineStyle01</styleUrl>
+			<MultiGeometry>
+				<LineString>
+					<coordinates>
+						-87.85938770112519,41.98350728713537,0 -87.86129800098469,41.98344006300665,0 -87.8639538819541,41.98334993367174,0 -87.86632687707055,41.98329771561326,0 -87.86876609776446,41.98326428473909,0 -87.87032593825646,41.98323344999115,0 -87.87093169593714,41.98321113201025,0 -87.87139014875277,41.98320977702694,0 -87.87193564168574,41.98319041330477,0 -87.87236728098843,41.98315500945886,0 -87.87275739636462,41.98312562798279,0 -87.8731726220991,41.98306539715173,0 -87.87363784062887,41.98297441703389,0 -87.87407848518436,41.98284000898587,0 -87.87434443053692,41.98277298674309,0 -87.87462727999856,41.9826627057965,0 -87.87570050485307,41.98223371585927,0 -87.87873837278575,41.98098062166808,0 -87.87874406939393,41.98097833153874,0 -87.88550782991101,41.97822947944864,0 -87.88725507509699,41.97746614257461,0 -87.88747218736543,41.97736760640854,0 -87.88771698892549,41.97727745859171,0 -87.88804941009582,41.97717068713783,0 -87.88840074796165,41.97709386049905,0 -87.88874733823977,41.97704421097249,0 -87.8890071095242,41.97703161803366,0 -87.88928045527149,41.97703267565206,0 -87.88959477698884,41.9770372911951,0 -87.88993159532382,41.97708278517224,0 -87.8903092280938,41.97715563365166,0 -87.89065487557934,41.97724195408891,0 -87.89095022361468,41.97735527624491,0 -87.89123632013613,41.97748895891651,0 -87.89148139252896,41.97762588247036,0 -87.89170352177236,41.97778651433037,0 -87.89279035482211,41.97870624427661,0 -87.89382637746239,41.97964711319369,0 -87.89561945052947,41.98118342246276,0 -87.89562339829254,41.98118715383204,0 
+					</coordinates>
+				</LineString>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
