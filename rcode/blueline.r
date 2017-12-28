@@ -4,8 +4,8 @@ library("tibble")
 
 # https://data.cityofchicago.org/
 # reading CTA data from downloaded CSV files
-dayBoarding <- read_csv(#path to CSV file#)
-stops <- read_csv(#path to CSV file#)
+dayBoarding <- read_csv(#path to data#)
+stops <- read_csv(#path to data#)
 # right now, I am only interested in the blue line, and relevant columns
 blueStops <- subset(stops[,c(5,6,9,17)], BLUE=="true")
 blueStops <- subset(blueStops[,c(1,2,4)])
@@ -58,22 +58,21 @@ blueStops <- bind_cols(blueStops, blueCoords)
 remove(blueCoords)
 
 #writing CSV files containing stops information
-write_csv(blueStops,# path to save as#)
+write_csv(blueStops, #path#)
 
 #now making a frame for each station's ridership data
 # and a list of each station's mean ridership over the entire timeframe
 
-meanRidership <- list()
+meanRidership <- c()
 
 for(i in 1:length(blueStops$name)){
   riders <- subset(blueRiders, station_id==blueStops$MAP_ID[i])
   meanRidership[i] <- mean(riders$rides)
   # exporting each stop to its own CSV
-  write_csv(riders, paste(#path to save to, including name prefix# as.character(i), ".csv", sep=""))
-  assign(paste("riders",as.character(i), sep=""), riders)
+  write_csv(riders, paste(#path#,as.character(i), ".csv", sep=""))
   remove(riders)
 }
-remove(i)
+remove(i, latReg, longReg)
 
 #creating r data file
 save.image(#path and file name#)
