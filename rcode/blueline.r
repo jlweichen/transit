@@ -4,8 +4,8 @@ library("tibble")
 
 # https://data.cityofchicago.org/
 # reading CTA data from downloaded CSV files
-dayBoarding <- read_csv(#path to CSV#)
-stops <- read_csv(#path to CSV#)
+dayBoarding <- read_csv(#path to CSV file#)
+stops <- read_csv(#path to CSV file#)
 # right now, I am only interested in the blue line, and relevant columns
 blueStops <- subset(stops[,c(5,6,9,17)], BLUE=="true")
 blueStops <- subset(blueStops[,c(1,2,4)])
@@ -47,8 +47,8 @@ blueCoords <- tibble(lat=1:length(blueNames), long=1:length(blueNames))
 for(i in 1:length(blueNames)){
   latReg <- "[[:digit:]][[:digit:]][[:punct:]][[:digit:]]*"
   longReg <-"-[[:digit:]]{2}[[:punct:]][[:digit:]]*"
-  blueCoords$lat[i] <- regmatches(blueLatLong[i], regexpr(latReg, blueLatLong[i]))
-  blueCoords$long[i] <- regmatches(blueLatLong[i], regexpr(longReg, blueLatLong[i]))
+  blueCoords$lat[i] <- as.numeric(regmatches(blueLatLong[i], regexpr(latReg, blueLatLong[i])))
+  blueCoords$long[i] <- as.numeric(regmatches(blueLatLong[i], regexpr(longReg, blueLatLong[i])))
 }
 remove(i)
 
@@ -58,7 +58,7 @@ blueStops <- bind_cols(blueStops, blueCoords)
 remove(blueCoords)
 
 #writing CSV files containing stops information
-write_csv(blueStops, "#path#blueStops.csv")
+write_csv(blueStops,# path to save as#)
 
 #now making a frame for each station's ridership data
 # and a list of each station's mean ridership over the entire timeframe
@@ -69,11 +69,11 @@ for(i in 1:length(blueStops$name)){
   riders <- subset(blueRiders, station_id==blueStops$MAP_ID[i])
   meanRidership[i] <- mean(riders$rides)
   # exporting each stop to its own CSV
-  write_csv(riders, paste("#path#",as.character(i), ".csv", sep=""))
+  write_csv(riders, paste(#path to save to, including name prefix# as.character(i), ".csv", sep=""))
   assign(paste("riders",as.character(i), sep=""), riders)
   remove(riders)
 }
 remove(i)
 
 #creating r data file
-save.image(#path#"/ridership.RData")
+save.image(#path and file name#)
