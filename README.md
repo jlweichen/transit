@@ -20,3 +20,4 @@ The second step is using the Twitter API. The file twitterChicago.r is run, firs
 
 I am using the ggplot2 library to make graphs using the data showing the most popular stops.
 ![map of Chicago](/Chicagobluetwitter.png)
+![heat map of the Loop, WIcker Park] (https://github.com/jlweichen/transit/blob/master/maps/Ctabluelineloop3.png)
