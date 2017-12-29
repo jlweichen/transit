@@ -25,4 +25,4 @@ Heat map of the Loop area and Wicker Park showing where most tweets are made:
 ![heat map of the Loop and Wicker Park](/maps/Ctabluelineloop3.png)
 
 Another heat map removing the "Chicago Metropolitan Area" Instagram posts, and job search bot tweets:
-![cleaner heat map of the Loop and Wicker Park](/maps/ctabluelineloop4.png)
+![cleaner heat map of the Loop and Wicker Park](/maps/Ctabluelineloop4.png)
