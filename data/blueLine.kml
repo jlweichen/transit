@@ -27,111 +27,61 @@
 			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
 
 <head>
-
 <META http-equiv="Content-Type" content="text/html">
-
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
 </head>
 
 <body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
 <table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
 <tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
 <td>Blue Line (Forest Park)</td>
-
 </tr>
-
 <tr>
-
 <td>
-
 <table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
 <tr>
-
 <td>OBJECTID_1</td>
-
 <td>1</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>ASSET_ID</td>
-
 <td>21100001</td>
-
 </tr>
-
 <tr>
-
 <td>LINES</td>
-
 <td>Blue Line (Forest Park)</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>DESCRIPTIO</td>
-
 <td>Oak Park to Austin</td>
-
 </tr>
-
 <tr>
 
 <td>TYPE</td>
-
 <td>Elevated or at Grade</td>
-
 </tr>
 
 <tr bgcolor="#D4E4F3">
-
 <td>LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr>
-
 <td>ALT_LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>BRANCH</td>
-
 <td>Blue Line Forest Park</td>
-
 </tr>
-
 <tr>
-
 <td>SHAPE.LEN</td>
-
 <td>4060.368778</td>
-
 </tr>
-
 </table>
-
 </td>
-
 </tr>
-
 </table>
-
 </body>
-
 </html>]]></description>
 			<styleUrl>#LineStyle01</styleUrl>
 			<MultiGeometry>
@@ -3227,39 +3177,22 @@
 <td>Forest Park to Harlem</td>
 
 </tr>
-
 <tr>
-
 <td>TYPE</td>
-
 <td>Elevated or at Grade</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr>
-
 <td>ALT_LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>BRANCH</td>
-
 <td>Blue Line Forest Park</td>
-
 </tr>
-
 <tr>
 
 <td>SHAPE.LEN</td>
@@ -3477,49 +3410,27 @@
 <td>Elevated or at Grade</td>
 
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr>
-
 <td>ALT_LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>BRANCH</td>
-
 <td>Blue Line Forest Park</td>
-
 </tr>
-
 <tr>
-
 <td>SHAPE.LEN</td>
-
 <td>2681.143575</td>
-
 </tr>
-
 </table>
-
 </td>
-
 </tr>
-
 </table>
-
 </body>
-
 </html>]]></description>
 			<styleUrl>#LineStyle01</styleUrl>
 			<MultiGeometry>
@@ -3965,43 +3876,24 @@
 <tr bgcolor="#D4E4F3">
 
 <td>LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr>
-
 <td>ALT_LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>BRANCH</td>
-
 <td>Blue Line O'Hare</td>
-
 </tr>
-
 <tr>
-
 <td>SHAPE.LEN</td>
-
 <td>2195.064636</td>
-
 </tr>
-
 </table>
-
 </td>
-
 </tr>
-
 </table>
-
 </body>
 
 </html>]]></description>
@@ -4018,113 +3910,60 @@
 			<name>Blue Line (O&apos;Hare)</name>
 			<Snippet maxLines="0"></Snippet>
 			<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
-
 <head>
-
 <META http-equiv="Content-Type" content="text/html">
-
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
 </head>
-
 <body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
-
 <table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
-
 <tr style="text-align:center;font-weight:bold;background:#9CBCE2">
-
 <td>Blue Line (O'Hare)</td>
-
 </tr>
-
 <tr>
-
 <td>
-
 <table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
-
 <tr>
-
 <td>OBJECTID_1</td>
-
 <td>138</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>ASSET_ID</td>
-
 <td>21100155</td>
-
 </tr>
-
 <tr>
-
 <td>LINES</td>
-
 <td>Blue Line (O'Hare)</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>DESCRIPTIO</td>
-
 <td>Subway Portal to Rosemont</td>
-
 </tr>
-
 <tr>
-
 <td>TYPE</td>
-
 <td>Elevated or at Grade</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr>
-
 <td>ALT_LEGEND</td>
-
 <td>BL</td>
-
 </tr>
-
 <tr bgcolor="#D4E4F3">
-
 <td>BRANCH</td>
-
 <td>Blue Line O'Hare</td>
-
 </tr>
-
 <tr>
-
 <td>SHAPE.LEN</td>
-
 <td>11048.421563</td>
-
 </tr>
-
 </table>
-
 </td>
 
 </tr>
-
 </table>
-
 </body>
-
 </html>]]></description>
 			<styleUrl>#LineStyle01</styleUrl>
 			<MultiGeometry>
