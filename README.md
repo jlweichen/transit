@@ -14,7 +14,7 @@ CTA data was taken from the website https://data.cityofchicago.org/. Twitter dat
 ### The Code
 
 The first step is using the ridership data. The file blueline.r is first run to parse the ridership data table for only the Blue Line stops. It creates an Rdata file that saves data tables with station data, ridership for all 33 stops, and a list of average daily ridership.
-The second step is using the Twitter API. The file pullingTweets.r is run, first importing the Blue Line data, then using the coordinates of each stop to query Twitter for up to 1000 tweets within a half-mile radius of each station. The tweets are combined into one data frame, and duplicates are removed. Tweets without exact coordinates are also removed, and the cleanTweets data frame is used to store them.
+The second step is using the Twitter API. The file pullingTweets.r is run, first importing the Blue Line data, then using the coordinates of each stop to query Twitter via the REST API for up to 1000 tweets within a half-mile radius of each station. The tweets are combined into one data frame, and duplicates are removed. Tweets without exact coordinates are also removed, and the cleanTweets data frame is used to store them.
 
 ### Imaging
 
