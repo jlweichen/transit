@@ -1,7 +1,7 @@
 ## A Data Analysis Project Using R to Analyze the Chicago 'L'
 
 
-This project is to use open data and the Twitter API to look at activity around the Chicago area, especially along the Blue Line of the 'L'.
+This project is to use open data and the Twitter API to look at activity around the Chicago area, especially along transit corridors
 
 ### Inspiration
 
@@ -9,12 +9,12 @@ I visited Chicago in the summer of 2017 for the first time and thoroughly enjoye
 
 ### Data
 
-CTA data was taken from the website https://data.cityofchicago.org/. Twitter data was accessed through the free API utilizing the twitteR library. I used the tidyverse packages to manipulate the data, and ggmap to create maps from the data.
+CTA and census data was taken from the website https://data.cityofchicago.org/. Twitter data was accessed through the free API utilizing the rtweet library. I used the tidyverse packages to manipulate the data, and ggmap to create maps from the data.
 
 ### The Code
 
-The first step is using the ridership data. The file blueline.r is first run to parse the ridership data table for only the Blue Line stops. It creates an Rdata file that saves data tables with station data, ridership for all 33 stops, and a list of average daily ridership.
-The second step is using the Twitter API. The file pullingTweets.r is run, first importing the Blue Line data, then using the coordinates of each stop to query Twitter via the REST API for up to 1000 tweets within a half-mile radius of each station. The tweets are combined into one data frame, and duplicates are removed. Tweets without exact coordinates are also removed, and the cleanTweets data frame is used to store them.
+The first step is done in QuantumGIS. I used a shapefile of the city and created a point-vector grid that provides over 600 lat-long points. The Twitter API will be queried within a 1.4 mile radius from each point to canvas the city.
+The second step is using the Twitter API. The file pullingTweets.r is run, first importing the points, then using each pair of the coordinates to query Twitter via the REST API for up to 1800 tweets within a 1.4 mile radius of each point. The tweets are combined into one data frame, and duplicates are removed. Tweets without exact coordinates are also removed, and the cleanTweets data frame is used to store them.
 
 ### Imaging
 
