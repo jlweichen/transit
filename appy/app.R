@@ -1,4 +1,5 @@
 library("shiny")
+library("leaflet")
 
 ui <- fluidPage(title = "Transit in Chicago - the Shiny App",
 
@@ -10,12 +11,12 @@ ui <- fluidPage(title = "Transit in Chicago - the Shiny App",
 
     # Sidebar panel for inputs ----
     sidebarPanel(
-      h1("Brrr!")
-      h4("This should be text on the side")
+      h4("Pick your favorite stop")
       column(
-        actionButton("action", "Just a button"),
-        textInput("text", h3("Text for entry"), 
-                     value = "Enter some words here")
+        selectInput("var", 
+          label = "Choose a variable to display",
+          choices = c("O'Hare", "Austin", "Jefferson Park"),
+          selected = "Austin"),
 
     ),
 
@@ -24,6 +25,8 @@ ui <- fluidPage(title = "Transit in Chicago - the Shiny App",
       h2("pfft pfft")
       br()
       h3("jam")
+      br()
+      textOutput("selected_var")
 
 
     )
