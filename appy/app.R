@@ -1,46 +1,43 @@
 library("shiny")
 library("leaflet")
 
-ui <- fluidPage(title = "Transit in Chicago - the Shiny App",
+ui <- fluidPage(
+                
+                # App title ----
+                titlePanel("Transit in Chicago"),
+                
+                # Sidebar layout with input and output definitions ----
+                sidebarLayout(position = "right",
+                              
+                              # Sidebar panel for inputs ----
+                              sidebarPanel(
+                                fluidRow(
+                                  h4("Pick your favorite stop")
+                                ),
+                                fluidRow(
+                                  column(12,
+                                  selectInput("station", 
+                                              label = "Choose Below",
+                                              choices = c("O'Hare", "Rosemont", "Cumberland", "Harlem (O'Hare Branch)", "Austin", "Jefferson Park", ""),
+                                              selected = "Austin")
+                                  )
+                                )
+                              ),
 
-  # App title ----
-  titlePanel("Transit in Chicago"),
+                                # Main panel for displaying outputs ----
+                              mainPanel(
+                                  h4("A map of tweets near your stop"),
+                                  br(),
+                                  textOutput("maptitle")
 
-  # Sidebar layout with input and output definitions ----
-  sidebarLayout(position = "right",
-
-    # Sidebar panel for inputs ----
-    sidebarPanel(
-      h4("Pick your favorite stop")
-      column(
-        selectInput("var", 
-          label = "Choose a variable to display",
-          choices = c("O'Hare", "Austin", "Jefferson Park"),
-          selected = "Austin"),
-
-    ),
-
-    # Main panel for displaying outputs ----
-    mainPanel(
-      h2("pfft pfft")
-      br()
-      h3("jam")
-      br()
-      textOutput("selected_var")
-
-
-    )
-  )
-)
-server <- function(input, output) {
-
-
-  output$distPlot <- renderPlot({
-
-
-
-    })
-
-}
-
-shinyApp(ui = ui, server = server)
+                                )
+                              )
+                )
+                server <- function(input, output) {
+                  
+                  output$maptitle <- renderText({
+                    paste('This is the ', input$station, ' station')
+                  })
+                }
+                
+                shinyApp(ui = ui, server = server)
